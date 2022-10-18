@@ -42,7 +42,7 @@ setup(
              'BIP39 Electrum mnemonic seed phrase',
     packages=['seed_phrases_for_stellar'],    
     install_requires=[
-        'mnemonic>=0.18',
+        'mnemonic==0.13',
         'pbkdf2>=1.3',
         'stellar-base>=0.1.5',
     ],
